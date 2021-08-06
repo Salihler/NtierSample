@@ -10,6 +10,12 @@
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Core.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Data.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Service.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Core.pdb
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Data.pdb
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Service.pdb
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/NtierSample.Api.csproj.AssemblyReference.cache
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/NtierSample.Api.GeneratedMSBuildEditorConfig.editorconfig
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/NtierSample.Api.AssemblyInfoInputs.cache
@@ -26,9 +32,3 @@
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/ref/NtierSample.Api.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/NtierSample.Api.pdb
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/NtierSample.Api.genruntimeconfig.cache
-/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Core.dll
-/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Data.dll
-/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Service.dll
-/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Core.pdb
-/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Data.pdb
-/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/NtierSample.Service.pdb
