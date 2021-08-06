@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "G1QYxfXqm3nXGzReSgFK14rR6FotxjTr7zs22oW9ON/NqjdciTqg7E+ZJkQETsWfohoIZH3DGwzSn+SV3hR/5Q==",
+  "success": true,
+  "projectFilePath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/NtierSample.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/erensalihler/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/erensalihler/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/erensalihler/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/erensalihler/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/erensalihler/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/erensalihler/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
