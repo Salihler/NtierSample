@@ -1,0 +1,17 @@
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/NtierSample.Service.deps.json
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/NtierSample.Service.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/ref/NtierSample.Service.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/NtierSample.Service.pdb
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/NtierSample.Core.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/NtierSample.Data.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/NtierSample.Core.pdb
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/bin/Debug/net5.0/NtierSample.Data.pdb
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.csproj.AssemblyReference.cache
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.AssemblyInfoInputs.cache
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.AssemblyInfo.cs
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.csproj.CoreCompileInputs.cache
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.csproj.CopyComplete
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/ref/NtierSample.Service.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Service/obj/Debug/net5.0/NtierSample.Service.pdb

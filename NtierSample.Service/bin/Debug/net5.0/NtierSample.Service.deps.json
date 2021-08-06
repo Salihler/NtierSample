@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NtierSample.Service/1.0.0": {
+        "dependencies": {
+          "NtierSample.Core": "1.0.0",
+          "NtierSample.Data": "1.0.0"
+        },
+        "runtime": {
+          "NtierSample.Service.dll": {}
+        }
+      },
+      "NtierSample.Core/1.0.0": {
+        "runtime": {
+          "NtierSample.Core.dll": {}
+        }
+      },
+      "NtierSample.Data/1.0.0": {
+        "dependencies": {
+          "NtierSample.Core": "1.0.0"
+        },
+        "runtime": {
+          "NtierSample.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NtierSample.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NtierSample.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NtierSample.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

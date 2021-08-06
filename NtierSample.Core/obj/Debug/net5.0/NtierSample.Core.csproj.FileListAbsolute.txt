@@ -1,0 +1,12 @@
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/bin/Debug/net5.0/NtierSample.Core.deps.json
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/bin/Debug/net5.0/NtierSample.Core.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/bin/Debug/net5.0/ref/NtierSample.Core.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/bin/Debug/net5.0/NtierSample.Core.pdb
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.csproj.AssemblyReference.cache
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.AssemblyInfoInputs.cache
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.AssemblyInfo.cs
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.csproj.CoreCompileInputs.cache
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/ref/NtierSample.Core.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.pdb

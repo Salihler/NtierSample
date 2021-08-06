@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "NtierSample.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/NtierSample.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NtierSample.Core.dll": {}
+        }
+      },
+      "NtierSample.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "NtierSample.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NtierSample.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NtierSample.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NtierSample.Core/1.0.0": {
+      "type": "project",
+      "path": "../NtierSample.Core/NtierSample.Core.csproj",
+      "msbuildProject": "../NtierSample.Core/NtierSample.Core.csproj"
+    },
+    "NtierSample.Data/1.0.0": {
+      "type": "project",
+      "path": "../NtierSample.Data/NtierSample.Data.csproj",
+      "msbuildProject": "../NtierSample.Data/NtierSample.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "NtierSample.Core >= 1.0.0",
+      "NtierSample.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/erensalihler/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
+              "projectPath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/NtierSample.Core.csproj"
+            },
+            "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/NtierSample.Data.csproj": {
+              "projectPath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/NtierSample.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
