@@ -3,7 +3,7 @@ using NtierSample.Core.Repositories;
 
 namespace NtierSample.Core.UnitOfWorks
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork
     {
         ICategoryRepository Categories { get; }
         IProductRepository Products { get; }

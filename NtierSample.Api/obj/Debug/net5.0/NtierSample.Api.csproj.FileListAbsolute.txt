@@ -32,3 +32,10 @@
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/ref/NtierSample.Api.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/NtierSample.Api.pdb
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/obj/Debug/net5.0/NtierSample.Api.genruntimeconfig.cache
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Humanizer.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Npgsql.dll
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Api/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

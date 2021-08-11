@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace NtierSample.Core.Repositories
 {
-    interface IRepository<TEntity> where TEntity:class
+    public interface IRepository<TEntity> where TEntity:class
     {
         Task<TEntity> GetByIdAsync(int id);
         Task<IEnumerable<TEntity>> GetAllAsync();
-        Task<IEnumerable<TEntity>> Find(Expression<Predicate<TEntity>> predicate);
-        Task<TEntity> SingleOrDefault(Expression<Predicate<TEntity>> predicate);
+        IEnumerable<TEntity> Where(Expression<Func<TEntity,bool>> predicate);
+        Task<TEntity> SingleOrDefault(Expression<Func<TEntity,bool>> predicate);
         Task AddAsync(TEntity entity);
         Task AddRangeAsync(IEnumerable<TEntity> entities);
         void Remove(TEntity entity);

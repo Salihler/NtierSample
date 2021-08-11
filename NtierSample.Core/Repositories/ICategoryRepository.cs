@@ -3,7 +3,7 @@ using NtierSample.Core.Models;
 
 namespace NtierSample.Core.Repositories
 {
-    interface ICategoryRepository : IRepository<Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
         Task<Category> GetWithProductsByIdAsync(int categoryId);
     }

@@ -6,11 +6,15 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using NtierSample.Core.UnitOfWorks;
+using NtierSample.Data;
+using NtierSample.Data.UnitOfWorks;
 
 namespace NtierSample.Api
 {
@@ -26,7 +30,14 @@ namespace NtierSample.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<AppDbContext>(options => {
+            options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"),o => 
+            {
+                o.MigrationsAssembly("NtierSample.Data");
+                });            
+            });
 
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

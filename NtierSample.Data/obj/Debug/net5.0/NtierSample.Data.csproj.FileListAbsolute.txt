@@ -1,4 +1,6 @@
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/bin/Debug/net5.0/NtierSample.Data.deps.json
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/bin/Debug/net5.0/NtierSample.Data.runtimeconfig.json
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/bin/Debug/net5.0/NtierSample.Data.runtimeconfig.dev.json
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/bin/Debug/net5.0/NtierSample.Data.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/bin/Debug/net5.0/ref/NtierSample.Data.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/bin/Debug/net5.0/NtierSample.Data.pdb
@@ -13,3 +15,4 @@
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/obj/Debug/net5.0/NtierSample.Data.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/obj/Debug/net5.0/ref/NtierSample.Data.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/obj/Debug/net5.0/NtierSample.Data.pdb
+/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/obj/Debug/net5.0/NtierSample.Data.genruntimeconfig.cache
