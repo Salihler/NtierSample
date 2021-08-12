@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 
 namespace NtierSample.Core.Services
 {
-    interface IService<TEntity> where TEntity:class
+    public interface IService<TEntity> where TEntity:class
     {        
         Task<TEntity> GetByIdAsync(int id);
         Task<IEnumerable<TEntity>> GetAllAsync();
-        Task<IEnumerable<TEntity>> Find(Expression<Predicate<TEntity>> predicate);
-        Task<TEntity> SingleOrDefault(Expression<Predicate<TEntity>> predicate);
-        Task AddAsync(TEntity entity);
-        Task AddRangeAsync(IEnumerable<TEntity> entities);
+        Task<IEnumerable<TEntity>> Where(Expression<Func<TEntity,bool>> predicate);
+        Task<TEntity> SingleOrDefault(Expression<Func<TEntity,bool>> predicate);
+        Task<TEntity> AddAsync(TEntity entity);
+        Task<IEnumerable<TEntity>> AddRangeAsync(IEnumerable<TEntity> entities);
         void Remove(TEntity entity);
         void RemoveRange(IEnumerable<TEntity> entities);
         TEntity Update(TEntity entity);

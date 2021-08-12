@@ -8,7 +8,7 @@ namespace NtierSample.Data.Repositories
     public class ProductRepository : Repository<Product>, IProductRepository
     {
         private AppDbContext appDbContext {get => _context as AppDbContext;}
-        public ProductRepository(DbContext context) : base(context)
+        public ProductRepository(AppDbContext context) : base(context)
         {
         }
 

@@ -3,7 +3,7 @@ using NtierSample.Core.Models;
 
 namespace NtierSample.Core.Services
 {
-    interface ICategortService : IService<Category>
+    public interface ICategoryService : IService<Category>
     {
         Task<Category> GetWithProductsByIdAsync(int categoryId);
     }
