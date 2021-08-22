@@ -12,9 +12,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using NtierSample.Core.Repositories;
+using NtierSample.Core.Services;
 using NtierSample.Core.UnitOfWorks;
 using NtierSample.Data;
+using NtierSample.Data.Repositories;
 using NtierSample.Data.UnitOfWorks;
+using NtierSample.Service.Services;
+using AutoMapper;
 
 namespace NtierSample.Api
 {
@@ -30,6 +35,13 @@ namespace NtierSample.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Startup));
+            services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
+            services.AddScoped(typeof(IService<>),typeof(Service<>));
+            services.AddScoped<ICategoryService,CategoryService>();
+            services.AddScoped<IProductService,ProductService>();
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
+
             services.AddDbContext<AppDbContext>(options => {
             options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"),o => 
             {
@@ -37,7 +49,6 @@ namespace NtierSample.Api
                 });            
             });
 
-            services.AddScoped<IUnitOfWork,UnitOfWork>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
