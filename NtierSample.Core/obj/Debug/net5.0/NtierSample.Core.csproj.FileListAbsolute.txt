@@ -10,3 +10,15 @@
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/ref/NtierSample.Core.dll
 /Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.pdb
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/bin/Debug/net5.0/NtierSample.Core.deps.json
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/bin/Debug/net5.0/NtierSample.Core.dll
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/bin/Debug/net5.0/ref/NtierSample.Core.dll
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/bin/Debug/net5.0/NtierSample.Core.pdb
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.csproj.AssemblyReference.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.AssemblyInfoInputs.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.AssemblyInfo.cs
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.csproj.CoreCompileInputs.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.dll
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/ref/NtierSample.Core.dll
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/Debug/net5.0/NtierSample.Core.pdb

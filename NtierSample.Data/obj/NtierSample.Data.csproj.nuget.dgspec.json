@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/NtierSample.Data.csproj": {}
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj": {}
   },
   "projects": {
-    "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
+        "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
         "projectName": "NtierSample.Core",
-        "projectPath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
-        "packagesPath": "/Users/erensalihler/.nuget/packages/",
-        "outputPath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/obj/",
+        "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
+        "packagesPath": "/home/salihler/.nuget/packages/",
+        "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/erensalihler/.nuget/NuGet/NuGet.Config"
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/NtierSample.Data.csproj": {
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
+        "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
         "projectName": "NtierSample.Data",
-        "projectPath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
-        "packagesPath": "/Users/erensalihler/.nuget/packages/",
-        "outputPath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Data/obj/",
+        "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
+        "packagesPath": "/home/salihler/.nuget/packages/",
+        "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/erensalihler/.nuget/NuGet/NuGet.Config"
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
-                "projectPath": "/Users/erensalihler/Desktop/projects/dotnetCoreProjects/NtierSample/NtierSample.Core/NtierSample.Core.csproj"
+              "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
+                "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj"
               }
             }
           }
@@ -138,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

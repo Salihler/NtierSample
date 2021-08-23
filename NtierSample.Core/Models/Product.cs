@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace NtierSample.Core.Models
 {
     public class Product

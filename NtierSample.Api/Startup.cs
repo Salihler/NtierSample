@@ -20,6 +20,12 @@ using NtierSample.Data.Repositories;
 using NtierSample.Data.UnitOfWorks;
 using NtierSample.Service.Services;
 using AutoMapper;
+using NtierSample.Api.Filters;
+using Microsoft.AspNetCore.Diagnostics;
+using NtierSample.Api.DTOs;
+using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
+using NtierSample.Api.Extension;
 
 namespace NtierSample.Api
 {
@@ -36,6 +42,7 @@ namespace NtierSample.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<NotFoundFilter>();
             services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
             services.AddScoped(typeof(IService<>),typeof(Service<>));
             services.AddScoped<ICategoryService,CategoryService>();
@@ -50,6 +57,12 @@ namespace NtierSample.Api
             });
 
             services.AddControllers();
+
+            services.Configure<ApiBehaviorOptions>(options => 
+            {
+                options.SuppressModelStateInvalidFilter = true;
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NtierSample.Api", Version = "v1" });
@@ -65,6 +78,9 @@ namespace NtierSample.Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "NtierSample.Api v1"));
             }
+
+            //TODO:Extension Methodları araştır!
+            app.UseCustomException();
 
             app.UseHttpsRedirection();
 
