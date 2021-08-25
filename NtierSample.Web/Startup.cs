@@ -17,7 +17,7 @@ using NtierSample.Data.UnitOfWorks;
 using NtierSample.Data;
 using NtierSample.Service.Services;
 using AutoMapper;
-
+using NtierSample.Web.Filters;
 
 namespace NtierSample.Web
 {
@@ -33,6 +33,7 @@ namespace NtierSample.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<NotFoundFilter>();
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
             services.AddScoped(typeof(IService<>),typeof(Service<>));

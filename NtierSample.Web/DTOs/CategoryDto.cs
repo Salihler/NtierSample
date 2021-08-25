@@ -6,7 +6,7 @@ namespace NtierSample.Web.DTOs
     {
         public int Id { get; set; }
         
-        [Required]
+        [Required(ErrorMessage = "{0} alanı boi olamaz.")]
         public string Name { get; set; }
     }
 }

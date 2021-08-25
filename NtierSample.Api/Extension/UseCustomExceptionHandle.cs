@@ -10,7 +10,6 @@ namespace NtierSample.Api.Extension
     {
         public static void UseCustomException(this IApplicationBuilder app)
         {
-            ICategoryService
             app.UseExceptionHandler(options => 
             {
                 options.Run(async context =>
