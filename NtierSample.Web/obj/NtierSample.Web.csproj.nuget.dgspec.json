@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/NtierSample.Web.csproj": {}
+  },
+  "projects": {
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
+        "projectName": "NtierSample.Core",
+        "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
+        "packagesPath": "/home/salihler/.nuget/packages/",
+        "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
+        "projectName": "NtierSample.Data",
+        "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
+        "packagesPath": "/home/salihler/.nuget/packages/",
+        "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
+                "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/NtierSample.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/NtierSample.Service.csproj",
+        "projectName": "NtierSample.Service",
+        "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/NtierSample.Service.csproj",
+        "packagesPath": "/home/salihler/.nuget/packages/",
+        "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj": {
+                "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj"
+              },
+              "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj": {
+                "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/NtierSample.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/NtierSample.Web.csproj",
+        "projectName": "NtierSample.Web",
+        "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/NtierSample.Web.csproj",
+        "packagesPath": "/home/salihler/.nuget/packages/",
+        "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/NtierSample.Service.csproj": {
+                "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/NtierSample.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

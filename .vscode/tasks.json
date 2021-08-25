@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/NtierSample.Api/NtierSample.Api.csproj",
+                "${workspaceFolder}/NtierSample.Web/NtierSample.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

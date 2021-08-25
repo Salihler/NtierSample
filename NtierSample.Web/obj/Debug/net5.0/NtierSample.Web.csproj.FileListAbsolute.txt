@@ -1,0 +1,8 @@
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.csproj.AssemblyReference.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.GeneratedMSBuildEditorConfig.editorconfig
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.AssemblyInfoInputs.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.AssemblyInfo.cs
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.csproj.CoreCompileInputs.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.MvcApplicationPartsAssemblyInfo.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.RazorAssemblyInfo.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.RazorAssemblyInfo.cs
