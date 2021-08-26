@@ -32,5 +32,54 @@ namespace NtierSample.Web.ApiServices
 
             return categories;
         }
+
+        public async Task<CategoryDto> AddAsync(CategoryDto categoryDto)
+        {
+            var stringContent = new StringContent(JsonConvert.SerializeObject(categoryDto));
+
+            var response = await _httpClient.PostAsync("category", stringContent);
+
+            if (response.IsSuccessStatusCode)
+            {
+                categoryDto = JsonConvert.DeserializeObject<CategoryDto>(await response.Content.ReadAsStringAsync());
+                return categoryDto;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public async Task<CategoryDto> GetByIdAsync(int id)
+        {
+            var response = await _httpClient.GetAsync($"category/{id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var deneme = JsonConvert.DeserializeObject<CategoryDto>(await response.Content.ReadAsStringAsync());
+                return deneme;
+            }
+
+            else
+            {
+                return null;
+            }
+        }
+
+        public async Task<bool> Update(CategoryDto categoryDto)
+        {
+            var stringContent = new StringContent(JsonConvert.SerializeObject(categoryDto));
+
+            var response = await _httpClient.PutAsync("category", stringContent);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
