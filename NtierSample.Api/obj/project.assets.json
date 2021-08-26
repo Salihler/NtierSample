@@ -1817,6 +1817,7 @@
     "net5.0": [
       "AutoMapper >= 9.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
+      "Microsoft.EntityFrameworkCore.Analyzers >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "NtierSample.Core >= 1.0.0",
@@ -1826,7 +1827,7 @@
     ]
   },
   "packageFolders": {
-    "/home/salihler/.nuget/packages/": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1834,11 +1835,11 @@
       "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/NtierSample.Api.csproj",
       "projectName": "NtierSample.Api",
       "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/NtierSample.Api.csproj",
-      "packagesPath": "/home/salihler/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/salihler/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1879,6 +1880,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Analyzers": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

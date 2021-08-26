@@ -26,6 +26,7 @@ using NtierSample.Api.DTOs;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using NtierSample.Api.Extension;
+using Microsoft.AspNetCore.HttpOverrides;
 
 namespace NtierSample.Api
 {
@@ -87,6 +88,11 @@ namespace NtierSample.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
 
             app.UseEndpoints(endpoints =>
             {
