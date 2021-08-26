@@ -1827,7 +1827,7 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/salihler/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1835,11 +1835,11 @@
       "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/NtierSample.Api.csproj",
       "projectName": "NtierSample.Api",
       "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/NtierSample.Api.csproj",
-      "packagesPath": "/root/.nuget/packages/",
+      "packagesPath": "/home/salihler/.nuget/packages/",
       "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/salihler/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

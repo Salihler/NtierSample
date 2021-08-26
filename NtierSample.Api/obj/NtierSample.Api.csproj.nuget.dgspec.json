@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/NtierSample.Api.csproj",
         "projectName": "NtierSample.Api",
         "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/NtierSample.Api.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/salihler/.nuget/packages/",
         "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -103,11 +103,11 @@
         "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
         "projectName": "NtierSample.Core",
         "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/NtierSample.Core.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/salihler/.nuget/packages/",
         "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -155,11 +155,11 @@
         "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
         "projectName": "NtierSample.Data",
         "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/NtierSample.Data.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/salihler/.nuget/packages/",
         "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -241,11 +241,11 @@
         "projectUniqueName": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/NtierSample.Service.csproj",
         "projectName": "NtierSample.Service",
         "projectPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/NtierSample.Service.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/salihler/.nuget/packages/",
         "outputPath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/salihler/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
