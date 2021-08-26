@@ -50,7 +50,7 @@ namespace NtierSample.Web
         public IActionResult Update(CategoryDto categoryDto)
         {
             _categoryService.Update(_mapper.Map<Category>(categoryDto));
-
+ 
             return RedirectToAction("Index");
         }
         
