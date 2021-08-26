@@ -42,19 +42,6 @@ namespace NtierSample.Web
 
             services.AddScoped<NotFoundFilter>();
             services.AddAutoMapper(typeof(Startup));
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped(typeof(IService<>), typeof(Service<>));
-            services.AddScoped<ICategoryService, CategoryService>();
-            services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-            services.AddDbContext<AppDbContext>(options =>
-            {
-                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"), o =>
-                {
-                    o.MigrationsAssembly("NtierSample.Data");
-                });
-            });
 
             services.AddControllersWithViews();
         }
