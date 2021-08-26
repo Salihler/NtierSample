@@ -26,6 +26,7 @@ using NtierSample.Api.DTOs;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using NtierSample.Api.Extension;
+using System.Net;
 
 namespace NtierSample.Api
 {
@@ -82,7 +83,7 @@ namespace NtierSample.Api
             //TODO:Extension Methodları araştır!
             app.UseCustomException();
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

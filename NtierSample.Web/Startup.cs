@@ -18,6 +18,8 @@ using NtierSample.Data;
 using NtierSample.Service.Services;
 using AutoMapper;
 using NtierSample.Web.Filters;
+using NtierSample.Web.ApiServices;
+using System.Net;
 
 namespace NtierSample.Web
 {
@@ -33,19 +35,25 @@ namespace NtierSample.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient<CategoryApiService>(opt =>
+            {
+                opt.BaseAddress = new Uri(Configuration["baseUrl"]);
+            });
+
             services.AddScoped<NotFoundFilter>();
             services.AddAutoMapper(typeof(Startup));
-            services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
-            services.AddScoped(typeof(IService<>),typeof(Service<>));
-            services.AddScoped<ICategoryService,CategoryService>();
-            services.AddScoped<IProductService,ProductService>();
-            services.AddScoped<IUnitOfWork,UnitOfWork>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IService<>), typeof(Service<>));
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            services.AddDbContext<AppDbContext>(options => {
-            options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"),o => 
+            services.AddDbContext<AppDbContext>(options =>
             {
-                o.MigrationsAssembly("NtierSample.Data");
-                });            
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"), o =>
+                {
+                    o.MigrationsAssembly("NtierSample.Data");
+                });
             });
 
             services.AddControllersWithViews();
@@ -64,7 +72,7 @@ namespace NtierSample.Web
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();

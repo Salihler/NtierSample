@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yw2KOhby98EUbkNR/T07Aeryz825lnPgsZKc9bNzTVFgzPodQCXT07zAXNQaVR5MHk9eNRbQ3M6fNzsPlAS+yA==",
+  "dgSpecHash": "+VDZkWHQr4ePbAYkZX4yRq4acXOJMN2A7t2bZZxSSqUmYcR/GjnyJIwrUlt9gY4goMTxnR8IkLCas3wVrqTK3w==",
   "success": true,
   "projectFilePath": "/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/NtierSample.Web.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/home/salihler/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/home/salihler/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/home/salihler/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/home/salihler/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/salihler/.nuget/packages/npgsql/5.0.0/npgsql.5.0.0.nupkg.sha512",
     "/home/salihler/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.0/npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
     "/home/salihler/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",

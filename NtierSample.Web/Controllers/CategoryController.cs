@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NtierSample.Core.Models;
 using NtierSample.Core.Services;
+using NtierSample.Web.ApiServices;
 using NtierSample.Web.DTOs;
 using NtierSample.Web.Filters;
 
@@ -12,16 +13,19 @@ namespace NtierSample.Web
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
+        private readonly CategoryApiService _categoryApiService;
         private readonly IMapper _mapper;
 
-        public CategoryController(ICategoryService categoryService, IMapper mapper)
+        public CategoryController(ICategoryService categoryService, IMapper mapper, CategoryApiService categoryApiService)
         {
             _categoryService = categoryService;
             _mapper = mapper;
+            _categoryApiService = categoryApiService;
         }
         public async Task<IActionResult> Index()
         {
-            var categories = await _categoryService.GetAllAsync();
+            //var categories = await _categoryService.GetAllAsync();
+            var categories = await _categoryApiService.GetAllAsync();
             
             return View(_mapper.Map<IEnumerable<CategoryDto>>(categories));
         }

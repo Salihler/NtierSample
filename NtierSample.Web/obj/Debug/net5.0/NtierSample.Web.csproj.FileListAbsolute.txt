@@ -14,6 +14,7 @@
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/bin/Debug/net5.0/Newtonsoft.Json.dll
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/bin/Debug/net5.0/Npgsql.dll
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/bin/Debug/net5.0/NtierSample.Core.dll
@@ -36,7 +37,9 @@
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.TagHelpers.input.cache
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.TagHelpers.output.cache
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.RazorCoreGenerate.cache
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Category/Create.cshtml.g.cs
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Category/Index.cshtml.g.cs
+/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Category/Update.cshtml.g.cs
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
@@ -52,5 +55,3 @@
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/ref/NtierSample.Web.dll
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.pdb
 /home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/NtierSample.Web.genruntimeconfig.cache
-/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Category/Create.cshtml.g.cs
-/home/salihler/Desktop/projects/dotnetSamples/NtierSample/NtierSample.Web/obj/Debug/net5.0/Razor/Views/Category/Update.cshtml.g.cs
